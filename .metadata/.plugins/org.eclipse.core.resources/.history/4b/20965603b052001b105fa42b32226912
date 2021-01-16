@@ -1,0 +1,51 @@
+import java.io.DataInputStream;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class Member {
+	String name;
+	ArrayList<Member> friends = new ArrayList<>();
+	ArrayList<Post> wall = new ArrayList<>();
+	ArrayList<Member> requestsList = new ArrayList<>();
+	  
+	
+	public Member(String name) {
+		
+		this.name = name;
+		
+	}
+	
+	public void addRequest(Member member) {
+		if(friends.indexOf(member)<0) {
+			requestsList.add(this);
+		}
+		
+	}
+	public void accept(Member member) {
+		friends.add(member);
+		requestsList.remove(member);
+		System.out.println("La demande est acceptée! Vous amis avec "+ member.name);
+	}
+	public void refuse(Member member) {
+		requestsList.remove(member);
+		System.out.println("La demande est réjetée.");
+	}
+	public void post() {
+		System.out.println("Exprimer vous!");
+		DataInputStream s = new DataInputStream(System.in);
+		try {
+			Post post = new Post(s.readLine(), this);
+			wall.add(post);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@Override
+	public String toString() {
+		return "Member [name=" + name + ", friends=" + friends + "]";
+	}
+	
+	
+}

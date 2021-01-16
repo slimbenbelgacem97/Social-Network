@@ -1,0 +1,4 @@
+
+public class Group extends Entity {
+	public int jointedMembers;
+}

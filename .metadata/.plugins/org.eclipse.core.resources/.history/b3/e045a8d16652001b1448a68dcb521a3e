@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class Member {
+	String name;
+	ArrayList<Member> friends;
+	//ArrayList<Post> wall;
+	
+	
+	public Member(String name) {
+		
+		this.name = name;
+	}
+	
+	public void addRequest(Member member) {
+		
+	}
+	
+}

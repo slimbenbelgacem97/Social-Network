@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class Network {
+	static ArrayList<Member> members = new ArrayList<>();
+	
+	public static void createMember(String name) {
+		Member m = new Member(name);
+		members.add(m);
+	}
+	public static void main(String[] args) {
+		createMember("Salata");
+		for (Member m  : members ) {
+			System.out.println(m.toString());
+		}
+	}
+}
