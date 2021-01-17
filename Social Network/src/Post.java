@@ -11,6 +11,7 @@ public class Post {
 		
 		ceartiondate = new Date(System.currentTimeMillis());
 	}
+	
 	@Override
 	public String toString() {
 		SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MM-dd 'at' HH:mm:ss");

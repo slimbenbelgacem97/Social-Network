@@ -37,7 +37,7 @@ public class Member {
 		System.out.println("La demande est réjetée.");
 		
 	}
-	public void postWall(Member member) {
+	public void post(Member member) {
 		
 		System.out.println("Exprimer vous!");
 		DataInputStream s = new DataInputStream(System.in);
@@ -62,13 +62,15 @@ public class Member {
 		group.jointedMembers++;
 		
 	}
-	
-	public void displaySugg() {
-		for(Member member: Network.suggestFirends())
-			System.out.println(member.Profile(member));
+	public void manageEntity(Entity entity) {
+		
+		if(entity.managerList.contains(this)) {
+			//TODO add manager
+		}else {
+			System.out.println("Acces Denied");
+		}
 		
 	}
-	
 	public void createPage() {
 		System.out.println("Créer votre page!\nEntrer Le nom de votre page");
 		DataInputStream s = new DataInputStream(System.in);

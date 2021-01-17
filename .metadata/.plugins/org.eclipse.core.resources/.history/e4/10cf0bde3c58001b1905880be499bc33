@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Member {
 	String name;
-	ArrayList<Member> friends;
+	ArrayList<Member> friends = new ArrayList<>();
 	ArrayList<Post> wall = new ArrayList<>();
 	ArrayList<Member> requestsList = new ArrayList<>();
 	ArrayList<Page> likedPages= new ArrayList<>();
@@ -13,7 +13,6 @@ public class Member {
 	public Member(String name) {
 		
 		this.name = name;
-		friends = new ArrayList<>();
 		
 	}
 	
@@ -37,7 +36,7 @@ public class Member {
 		System.out.println("La demande est réjetée.");
 		
 	}
-	public void postWall(Member member) {
+	public void post(Member member) {
 		
 		System.out.println("Exprimer vous!");
 		DataInputStream s = new DataInputStream(System.in);
@@ -45,7 +44,7 @@ public class Member {
 			Post post = new Post(s.readLine(), this);
 			member.wall.add(post);
 		} catch (IOException e) {
-			
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
@@ -62,13 +61,15 @@ public class Member {
 		group.jointedMembers++;
 		
 	}
-	
-	public void displaySugg() {
-		for(Member member: Network.suggestFirends())
-			System.out.println(member.Profile(member));
+	public void manageEntity(Entity entity) {
+		
+		if(entity.managerList.contains(this)) {
+			//TODO add manager
+		}else {
+			System.out.println("Acces Denied");
+		}
 		
 	}
-	
 	public void createPage() {
 		System.out.println("Créer votre page!\nEntrer Le nom de votre page");
 		DataInputStream s = new DataInputStream(System.in);

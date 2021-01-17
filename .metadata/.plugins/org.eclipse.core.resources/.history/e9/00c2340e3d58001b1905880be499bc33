@@ -31,7 +31,7 @@ public class Network {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		createMember("slim");
+		createMember("gggggggggg");
 		Member member = members.get(0);
 		//member.post();
 		member.friends.add(members.get(1));

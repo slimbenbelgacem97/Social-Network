@@ -31,13 +31,11 @@ public class Network {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		createMember("slim");
+		//createMember("gggggggggg");
 		Member member = members.get(0);
 		//member.post();
-		member.friends.add(members.get(1));
+		//member.friends.add(members.get(1));
 		member.createGroup();
-		System.out.println(member.equals(members.get(1)));
-		
 		for (Member m  : members ) {
 			System.out.println(m.Profile(m));
 		}
