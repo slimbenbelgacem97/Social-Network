@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Entity {
 	String name,gender;
-	Date ceartiondate;
+	Date creationdate;
 	Member owner;
 	ArrayList<Member> managerList ;
 	ArrayList<Post> discussion ;
@@ -17,14 +17,19 @@ public class Entity {
 		managerList = new ArrayList<>();
 		discussion = new ArrayList<>();
 		members = new ArrayList<>();
-		this.ceartiondate= new Date(System.currentTimeMillis());
+		this.creationdate = new Date(System.currentTimeMillis());
 		this.managerList.add(owner);
 	}
 	public void post(String content, Member auther) {
 		Post post = new Post(content, auther);
 		this.discussion.add(post);
-		
-		
+	}
+	public void deletePost(Member manager, Post post) {
+		if(this.managerList.contains(manager)) {
+			this.discussion.remove(post);
+		}else {
+			System.out.println("Accès refusé");
+		}
 	}
 	public void addManager(Member owner, Member member) {
 		if(owner.equals(this.owner)) {

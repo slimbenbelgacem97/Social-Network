@@ -1,4 +1,0 @@
-
-public class Page extends Entity {
-	public int likes;
-}

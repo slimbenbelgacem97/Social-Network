@@ -9,7 +9,7 @@ public class Group extends Entity {
 		if(this.managerList.contains(manager)) {
 			this.members.add(member);
 		}else {
-			System.out.println("Accès refusé");
+			System.out.println(refuse);
 		}
 	}
 	

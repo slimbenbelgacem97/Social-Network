@@ -13,7 +13,7 @@ public class Member {
 	public Member(String name) {
 		
 		this.name = name;
-		friends = new ArrayList<>();
+		friends = new ArrayList<Member>();
 		
 	}
 	
@@ -54,6 +54,8 @@ public class Member {
 		
 		this.likedPages.add(page);
 		page.likes++;
+		//aaaaaa
+		page.members.add(this);
 		
 	}
 	public void joinGroup(Group group) {
@@ -64,7 +66,8 @@ public class Member {
 	}
 	
 	public void displaySugg() {
-		for(Member member: Network.suggestFirends())
+		ArrayList<Member> m = Network.suggestFirends(this);
+		for(Member member: m)
 			System.out.println(member.Profile(member));
 		
 	}
@@ -79,6 +82,9 @@ public class Member {
 			Page page = new Page(name, gender, this);
 			this.likedPages.add(page);
 			Network.entities.add(page);
+			//aaaa
+			page.members.add(this);
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

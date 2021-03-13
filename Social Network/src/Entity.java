@@ -24,32 +24,34 @@ public class Entity {
 		Post post = new Post(content, auther);
 		this.discussion.add(post);
 	}
+	String refuse ="Accès refusé";
 	public void deletePost(Member manager, Post post) {
+
 		if(this.managerList.contains(manager)) {
 			this.discussion.remove(post);
 		}else {
-			System.out.println("Accès refusé");
+			System.out.println(refuse);
 		}
 	}
 	public void addManager(Member owner, Member member) {
 		if(owner.equals(this.owner)) {
 			this.managerList.add(member);
 		}else {
-			System.out.println("Accès refusé");
+			System.out.println(refuse);
 		}
 	}
 	public void deleteManager(Member owner , Member member) {
 		if(owner.equals(this.owner)) {
 			this.managerList.remove(member);
 		}else {
-			System.out.println("Accès refusé");
+			System.out.println(refuse);
 		}
 	}
 	public void deleteMember(Member manager , Member member) {
 		if(this.managerList.contains(manager)) {
 			this.members.remove(member);
 		}else {
-			System.out.println("Accès refusé");
+			System.out.println(refuse);
 		}
 	}
 }
