@@ -30,7 +30,7 @@ public class Member {
 		
 		
 	}
-	public void refuse(String login) {
+	public void refuse(String login)throws Neo4jException {
 		
 		
 		Network.conn.executeSet("MATCH (a:Member)<-[r:friend]-(b:Member)\n"
@@ -67,7 +67,7 @@ public class Member {
 									+ "CREATE (a)-[:owner]->(g)\n"
 									+ "CREATE (a)-[:joined]->(g)" );
 	}
-	public String Profile(Member member) {
+	public String profile(Member member) {
 		String friendName = null;
 		Record record;
 

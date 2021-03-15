@@ -6,29 +6,28 @@ import org.neo4j.driver.Record;
 import org.neo4j.driver.Session;
 import org.neo4j.driver.Transaction;
 import org.neo4j.driver.TransactionWork;
+import org.neo4j.driver.exceptions.Neo4jException;
 
 import static org.neo4j.driver.Values.parameters;
 
-public class Connexion implements AutoCloseable
-{
+public class Connexion implements AutoCloseable {
     public final Driver driver;
     private Session session;
 
     public Connexion( String url, String user, String password ){
         driver = GraphDatabase.driver( url, AuthTokens.basic( user, password ) );
     }
-    public void CreateSession(){
-    	session = driver.session();
+    public void createSession(){
+        session = driver.session();
     }
     
 
     @Override
-    public void close() throws Exception{
+    public void close() throws Neo4jException{
         driver.close();
     }
 
-    public void executeSet(String cypher)
-    {
+    public void executeSet(String cypher) {
         try ( Session session = driver.session() ){
             session.writeTransaction(tx -> {
                 Result result = tx.run(cypher);
@@ -39,20 +38,9 @@ public class Connexion implements AutoCloseable
         	System.out.println(e.getMessage());
         }
     }
-    
-    
-    
-    
-    public Result executeGet( final String cypher ){
-    
-        try {
+
+    public Result executeGet( final String cypher ) throws Neo4jException{
         	return session.run( cypher );
-    
-        	
-	
-        }catch (Exception e) {
-			System.err.println(e.getMessage());
-			return null;
 		}
-    }
+
 }
