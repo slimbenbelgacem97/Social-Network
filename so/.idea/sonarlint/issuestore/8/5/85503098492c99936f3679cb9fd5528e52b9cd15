@@ -1,0 +1,186 @@
+
+V	java:S106€"9Replace this use of System.out or System.err by a logger.(Ô…±ù8ã‹çà‚/
+[	java:S106„"9Replace this use of System.out or System.err by a logger.(’çŠ•üÿÿÿÿ8ã‹çà‚/
+u
+java:S3776["SRefactor this method to reduce its Cognitive Complexity from 283 to the 15 allowed.(ÙØ¤Şıÿÿÿÿ8ã‹çà‚/
+V	java:S106€"9Replace this use of System.out or System.err by a logger.(¢¨ãß8şËğ€/
+P
+java:S1199ø"-Extract this nested code block into a method.(¿á÷»úÿÿÿÿ8ã‹çà‚/
+R
+java:S3740ó"/Provide the parametrized type for this generic.(çÊßùÿÿÿÿ8ã‹çà‚/
+[	java:S106‘"9Replace this use of System.out or System.err by a logger.(­çû•ùÿÿÿÿ8ã‹çà‚/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ëµÛ…8¦Áà‚/
+\
+java:S2130®"9Use "Integer.parseInt" for this string-to-int conversion.(Òşøùÿÿÿÿ8ã‹çà‚/
+Z	java:S106a"9Replace this use of System.out or System.err by a logger.(Ïî¦şÿÿÿÿ8¦Áà‚/
+X
+java:S1119ï";Refactor the code to remove this label and the need for it.(­áÒ18ã‹çà‚/
+[	java:S106Ù"9Replace this use of System.out or System.err by a logger.(Äóÿøøÿÿÿÿ8ã‹çà‚/
+[	java:S106­"9Replace this use of System.out or System.err by a logger.(ê¬â³øÿÿÿÿ8³Œ™á‚/
+v
+java:S1192‘"SDefine a constant instead of duplicating this literal "| Creation Date : " 3 times.(­çû•ùÿÿÿÿ8ã‹çà‚/
+G
+java:S1444"*Make this "public static conn" field final(ìº¡´8¦Áà‚/
+M
+java:S3740î"/Provide the parametrized type for this generic.(ÖÍ8ã‹çà‚/
+K	java:S108²")Either remove or fill this block of code.(ë©Øºüÿÿÿÿ8³Œ™á‚/
+\
+java:S2130¨"9Use "Integer.parseInt" for this string-to-int conversion.(“‡ö­ÿÿÿÿÿ8ã‹çà‚/
+V	java:S106Ü"9Replace this use of System.out or System.err by a logger.(Ò¶°Í8ã‹çà‚/
+[	java:S106ê"9Replace this use of System.out or System.err by a logger.(‚¿¼´ùÿÿÿÿ8ã‹çà‚/
+[	java:S106û"9Replace this use of System.out or System.err by a logger.(ì¥Šúûÿÿÿÿ8ã‹çà‚/
+P
+java:S1199ÿ"-Extract this nested code block into a method.(µÁ“øüÿÿÿÿ8ã‹çà‚/
+K
+java:S1199‹"-Extract this nested code block into a method.(î°Õ½8ã‹çà‚/
+V	java:S106š"9Replace this use of System.out or System.err by a logger.(ˆ…Ãç8³Œ™á‚/
+[	java:S106É"9Replace this use of System.out or System.err by a logger.(ıı°¡şÿÿÿÿ8™ú™ã€/
+[	java:S106ô"9Replace this use of System.out or System.err by a logger.(’çŠ•üÿÿÿÿ8ã‹çà‚/
+[	java:S106Ø"9Replace this use of System.out or System.err by a logger.(şø‰¹şÿÿÿÿ8³Œ™á‚/
+[	java:S106‘"9Replace this use of System.out or System.err by a logger.(’çŠ•üÿÿÿÿ8³Œ™á‚/
+[	java:S106 "9Replace this use of System.out or System.err by a logger.(æ¯…áùÿÿÿÿ8şËğ€/
+7
+java:S1220""Move this file to a named package.8Æ…©Ü‚/
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(î€­È8ã‹çà‚/
+[	java:S106Î"9Replace this use of System.out or System.err by a logger.(şø‰¹şÿÿÿÿ8³Œ™á‚/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(òÙŸÑÿÿÿÿÿ8¦Áà‚/
+[	java:S106Ï"9Replace this use of System.out or System.err by a logger.(¬£òşÿÿÿÿ8³Œ™á‚/
+|
+java:S2293ğ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãºÙÙşÿÿÿÿ8ã‹çà‚/
+R
+java:S1874¨"/Remove this use of "Integer"; it is deprecated.(“‡ö­ÿÿÿÿÿ8ã‹çà‚/
+[	java:S106Ê"9Replace this use of System.out or System.err by a logger.(’çŠ•üÿÿÿÿ8ã‹çà‚/
+V	java:S106"9Replace this use of System.out or System.err by a logger.(Êğó 8ã‹çà‚/
+P
+java:S1199¨"-Extract this nested code block into a method.(‡’ã‡ıÿÿÿÿ8ã‹çà‚/
+Z	java:S106~"9Replace this use of System.out or System.err by a logger.(ÊŞöºşÿÿÿÿ8¦Áà‚/
+[	java:S106ñ"9Replace this use of System.out or System.err by a logger.(«ÌŞßúÿÿÿÿ8¦Áà‚/
+K
+java:S1199"-Extract this nested code block into a method.(®ÀÏ´8ã‹çà‚/
+V	java:S106Œ"9Replace this use of System.out or System.err by a logger.(ÈÈö8ã‹çà‚/
+V	java:S106"9Replace this use of System.out or System.err by a logger.(ïÖÑ—8şËğ€/
+U	java:S106«"9Replace this use of System.out or System.err by a logger.(áéå8ã‹çà‚/
+[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(‚¿¼´ùÿÿÿÿ8³Œ™á‚/
+[	java:S106Á"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ8ã‹çà‚/
+[	java:S106¦"9Replace this use of System.out or System.err by a logger.(’çŠ•üÿÿÿÿ8³Œ™á‚/
+[	java:S106ö"9Replace this use of System.out or System.err by a logger.(é·é½ùÿÿÿÿ8ã‹çà‚/
+V	java:S106‚"9Replace this use of System.out or System.err by a logger.(Çè¹Ñ8şËğ€/
+[	java:S106ü"9Replace this use of System.out or System.err by a logger.(˜íŠúÿÿÿÿ8¦Áà‚/
+R
+java:S1141u"5Extract this nested try block into a separate method.(Ä¥áĞ8şËá‚/
+T	java:S106/"9Replace this use of System.out or System.err by a logger.(¸ØïU8ã‹çà‚/
+[	java:S106˜"9Replace this use of System.out or System.err by a logger.(“î¸¾şÿÿÿÿ8³Œ™á‚/
+[	java:S106©"9Replace this use of System.out or System.err by a logger.(óã‚„ıÿÿÿÿ8ã‹çà‚/
+U	java:S106¥"9Replace this use of System.out or System.err by a logger.(€ŒŞs8³Œ™á‚/
+[	java:S106Ä"9Replace this use of System.out or System.err by a logger.(¬£òşÿÿÿÿ8³Œ™á‚/
+V	java:S106‘"9Replace this use of System.out or System.err by a logger.(˜Ë“Ù8ã‹çà‚/
+V	java:S106ó"9Replace this use of System.out or System.err by a logger.(ÓÆåÍ8şËğ€/
+\
+java:S2130ª"9Use "Integer.parseInt" for this string-to-int conversion.(¢òÊŒşÿÿÿÿ8³Œ™á‚/
+m
+java:S1104"PMake conn a static final constant or non-public and provide accessors if needed.(ìº¡´8¦Áà‚/
+[	java:S106Ä"9Replace this use of System.out or System.err by a logger.(˜Ò½¦ÿÿÿÿÿ8ã‹çà‚/
+V	java:S106½"9Replace this use of System.out or System.err by a logger.(êÛ›¯8ã‹çà‚/
+
+java:S1319"sThe return type of this method should be an interface such as "Map" rather than the implementation "LinkedHashMap".(î€­È8ã‹çà‚/
+V	java:S106ò"9Replace this use of System.out or System.err by a logger.(É¿€ï8şËğ€/
+[	java:S106¤"9Replace this use of System.out or System.err by a logger.(˜íŠúÿÿÿÿ8³Œ™á‚/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(«³ñàıÿÿÿÿ8³Œ™á‚/
+K
+java:S1199É"-Extract this nested code block into a method.(®ÀÏ´8³Œ™á‚/
+\
+java:S2130ú"9Use "Integer.parseInt" for this string-to-int conversion.(¢òÊŒşÿÿÿÿ8ã‹çà‚/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(½Œãùÿÿÿÿ8ã‹çà‚/
+R
+java:S1874‚"/Remove this use of "Integer"; it is deprecated.(¢òÊŒşÿÿÿÿ8ã‹çà‚/
+J
+java:S1199à"-Extract this nested code block into a method.(¤³ã(8ã‹çà‚/
+P
+java:S1199×"-Extract this nested code block into a method.(µ¶½æøÿÿÿÿ8ã‹çà‚/
+V	java:S106­"9Replace this use of System.out or System.err by a logger.(Èı§’8ã‹çà‚/
+P
+java:S1199Ï"-Extract this nested code block into a method.(ÒÂ’ÿüÿÿÿÿ8ã‹çà‚/
+V	java:S106Ê"9Replace this use of System.out or System.err by a logger.(Úıã¼8³Œ™á‚/
+[	java:S106¬"9Replace this use of System.out or System.err by a logger.(²Ø“ûÿÿÿÿ8³Œ™á‚/
+[	java:S106Ã"9Replace this use of System.out or System.err by a logger.(¹ÍÔ‹üÿÿÿÿ8³Œ™á‚/
+V	java:S106Ù"9Replace this use of System.out or System.err by a logger.(²‘ÕÜ8³Œ™á‚/
+[	java:S106ª"9Replace this use of System.out or System.err by a logger.(ÁÄ½€ûÿÿÿÿ8ã‹çà‚/
+R
+java:S1874ª"/Remove this use of "Integer"; it is deprecated.(¢òÊŒşÿÿÿÿ8³Œ™á‚/
+R
+java:S1874®"/Remove this use of "Integer"; it is deprecated.(Òşøùÿÿÿÿ8ã‹çà‚/
+j
+java:S1192‘"GDefine a constant instead of duplicating this literal "name: " 3 times.(­çû•ùÿÿÿÿ8ã‹çà‚/
+J
+java:S1199r"-Extract this nested code block into a method.(ŞŒâÏ8ã‹çà‚/
+k
+java:S1192„"HDefine a constant instead of duplicating this literal "0: back" 9 times.(’çŠ•üÿÿÿÿ8ã‹çà‚/
+[	java:S106†"9Replace this use of System.out or System.err by a logger.(’çŠ•üÿÿÿÿ8ã‹çà‚/
+R
+java:S1874"/Remove this use of "Integer"; it is deprecated.(¢òÊŒşÿÿÿÿ8ã‹çà‚/
+[	java:S106¿"9Replace this use of System.out or System.err by a logger.(çé™Úøÿÿÿÿ8³Œ™á‚/
+K	java:S108Š")Either remove or fill this block of code.(ë©Øºüÿÿÿÿ8ã‹çà‚/
+\
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(¢òÊŒşÿÿÿÿ8ã‹çà‚/
+[	java:S106Ç"9Replace this use of System.out or System.err by a logger.(”øÉÀüÿÿÿÿ8¦Áà‚/
+P
+java:S1199°"-Extract this nested code block into a method.(µõˆ¶ÿÿÿÿÿ8ã‹çà‚/
+[	java:S106"9Replace this use of System.out or System.err by a logger.(½ÇÌõûÿÿÿÿ8³Œ™á‚/
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(‡ĞØ÷üÿÿÿÿ8ã‹çà‚/
+[	java:S106ş"9Replace this use of System.out or System.err by a logger.(’çŠ•üÿÿÿÿ8ã‹çà‚/
+[	java:S106„"9Replace this use of System.out or System.err by a logger.(‹¹‡Èıÿÿÿÿ8¦Áà‚/
+[	java:S106µ"9Replace this use of System.out or System.err by a logger.(ãåßüÿÿÿÿ8ã‹çà‚/
+h
+java:S1192"FDefine a constant instead of duplicating this literal "login" 6 times.(¢§úØùÿÿÿÿ8½şêà‚/
+V	java:S106¢"9Replace this use of System.out or System.err by a logger.(ËÍÇ’8şËğ€/
+[	java:S106š"9Replace this use of System.out or System.err by a logger.(§¬©Ëúÿÿÿÿ8ã‹çà‚/
+i	java:S128¬"LEnd this switch case with an unconditional break, return or throw statement.(ç¿Ô8ã‹çà‚/
+V	java:S106§"9Replace this use of System.out or System.err by a logger.(Èı§’8ã‹çà‚/
+[	java:S106£"9Replace this use of System.out or System.err by a logger.(’çŠ•üÿÿÿÿ8ã‹çà‚/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(©ııóúÿÿÿÿ8şËğ€/
+U	java:S106ı"9Replace this use of System.out or System.err by a logger.(€ŒŞs8şËğ€/
+V	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(ÁŒÀ–8™ú™ã€/
+V	java:S106¡"9Replace this use of System.out or System.err by a logger.(˜§¶¨8şËğ€/
+[	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(şï¬ğûÿÿÿÿ8ã‹çà‚/
+\
+java:S2130‚"9Use "Integer.parseInt" for this string-to-int conversion.(¢òÊŒşÿÿÿÿ8ã‹çà‚/
+[	java:S106¡"9Replace this use of System.out or System.err by a logger.(’çŠ•üÿÿÿÿ8ã‹çà‚/
+[	java:S106Æ"9Replace this use of System.out or System.err by a logger.(úÍ¿èıÿÿÿÿ8ã‹çà‚/
+V	java:S106¹"9Replace this use of System.out or System.err by a logger.(˜Ë“Ù8³Œ™á‚/
+V	java:S106ù"9Replace this use of System.out or System.err by a logger.(Óìü’8ã‹çà‚/
+P
+java:S1199¾"-Extract this nested code block into a method.(„™´àøÿÿÿÿ8³Œ™á‚/
+[	java:S106…"9Replace this use of System.out or System.err by a logger.(ê¬â³øÿÿÿÿ8şËğ€/
+[	java:S106²"9Replace this use of System.out or System.err by a logger.(üÃîåøÿÿÿÿ8ã‹çà‚/
+V	java:S106"9Replace this use of System.out or System.err by a logger.(Ê¯³ä8³Œ™á‚/
+[	java:S106Ğ"9Replace this use of System.out or System.err by a logger.(¬˜äÿúÿÿÿÿ8ã‹çà‚/
+U	java:S106b"9Replace this use of System.out or System.err by a logger.(¬ö‰8şËğ€/
+V	java:S106"9Replace this use of System.out or System.err by a logger.(è½Ç8³Œ™á‚/
+P
+java:S1199ä"-Extract this nested code block into a method.(„™´àøÿÿÿÿ8ã‹çà‚/
+m
+java:S1192´"ODefine a constant instead of duplicating this literal "invalide input" 4 times.(ÈÈö8³Œ™á‚/
+Z	java:S106{"9Replace this use of System.out or System.err by a logger.(Ÿ†öÃúÿÿÿÿ8ã‹çà‚/
+V	java:S106©"9Replace this use of System.out or System.err by a logger.(Êğó 8³Œ™á‚/
+U	java:S106 "9Replace this use of System.out or System.err by a logger.(ĞØ¶&8¦Áà‚/
+U	java:S106á"9Replace this use of System.out or System.err by a logger.(…Ãªo8ã‹çà‚/
+P
+java:S1199‹"-Extract this nested code block into a method.(‡’ã‡ıÿÿÿÿ8ã‹çà‚/
+P
+java:S1199¹"-Extract this nested code block into a method.(ßƒÍ…ùÿÿÿÿ8ã‹çà‚/
+[	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(Ä°’÷üÿÿÿÿ8¦Áà‚/
+R
+java:S1874ú"/Remove this use of "Integer"; it is deprecated.(¢òÊŒşÿÿÿÿ8ã‹çà‚/
+[	java:S106–"9Replace this use of System.out or System.err by a logger.(ËŠ”´ÿÿÿÿÿ8ã‹çà‚/
+V	java:S106Ô"9Replace this use of System.out or System.err by a logger.(éÜ°ò8³Œ™á‚/
+U	java:S106s"9Replace this use of System.out or System.err by a logger.(İçÜÇ8ã‹çà‚/
+[	java:S106®"9Replace this use of System.out or System.err by a logger.(’çŠ•üÿÿÿÿ8³Œ™á‚/
+[	java:S106È"9Replace this use of System.out or System.err by a logger.(ü¸’‰şÿÿÿÿ8şËğ€/
+P
+java:S1199—"-Extract this nested code block into a method.(‡’ã‡ıÿÿÿÿ8³Œ™á‚/
+U	java:S106†"9Replace this use of System.out or System.err by a logger.(†ñ8ã‹çà‚/
+[	java:S106º"9Replace this use of System.out or System.err by a logger.(‘”¸Öıÿÿÿÿ8ã‹çà‚/
+U	java:S106c"9Replace this use of System.out or System.err by a logger.(ŒÂÙ8ã‹çà‚/
+V	java:S106´"9Replace this use of System.out or System.err by a logger.(ÈÈö8³Œ™á‚/
+[	java:S106Ò"9Replace this use of System.out or System.err by a logger.(«„ëûÿÿÿÿ8ã‹çà‚/

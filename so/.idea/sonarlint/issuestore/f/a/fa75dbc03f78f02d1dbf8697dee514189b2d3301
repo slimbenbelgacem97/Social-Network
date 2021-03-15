@@ -1,0 +1,12 @@
+
+m
+java:S1192"RDefine a constant instead of duplicating this literal "WHERE a.login = '" 4 times.(œ—íÛüÿÿÿÿ
+o	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò©Ëùÿÿÿÿ8íà³İ‚/
+0
+java:S1220""Move this file to a named package.
+m
+java:S1192"RDefine a constant instead of duplicating this literal "' AND b.login = '" 4 times.(œ—íÛüÿÿÿÿ
+u
+java:S1192\"SDefine a constant instead of duplicating this literal "| Creation Date : " 3 times.(¯‹şğıÿÿÿÿ8œááİ‚/
+i
+java:S1192\"GDefine a constant instead of duplicating this literal "name: " 3 times.(¯‹şğıÿÿÿÿ8œááİ‚/

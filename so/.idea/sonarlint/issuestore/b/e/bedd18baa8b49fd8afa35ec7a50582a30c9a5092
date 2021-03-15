@@ -1,0 +1,17 @@
+
+V
+java:S1117 ";Rename "session" which hides the field declared at line 15.(ëâãÊùÿÿÿÿ
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(‰ôÙ†8û„–à‚/
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+7
+java:S1220""Move this file to a named package.8­å©Ü‚/
+_
+java:S1128"=Remove this unused import 'org.neo4j.driver.TransactionWork'.(½ªûÿÿÿÿ8û„–à‚/
+[
+java:S1128"9Remove this unused import 'org.neo4j.driver.Transaction'.(ĞÂúÿÿÿÿ8û„–à‚/
+H
+java:S1481""+Remove this unused "result" local variable.(Ù‰Á²8û„–à‚/
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿ
+I
+java:S1128"4Remove this unused import 'org.neo4j.driver.Record'.(¶Ÿ±H
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ±ÏÉÿÿÿÿÿ
